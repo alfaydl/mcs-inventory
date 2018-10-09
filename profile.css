@@ -1,0 +1,49 @@
+*{margin:0;padding:0;font-family:arial}
+nav{width: 100%; background: #468; position: fixed; z-index: 999;}
+.kiri{float:left; width: 500px;}.kiri a{font-weight:bold}
+.kanan{float:right}
+nav .kanan li{list-style:none;display:inline}
+nav ul li a{font-size:17px;}
+nav .kanan li a{display:inline-block;padding:18px;color:#fff;}
+nav .kiri li a{display:inline-block;padding:18px;color:#fff;text-transform:uppercase}
+a{text-decoration:none}
+
+.span{background:#3498db;color:#fff;padding:10px;display:inherit;margin: 50px auto 0;margin-bottom:10px;}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 60px auto 0;
+    background-color: #3498db;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.title {
+    color: #D3D3D3;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    border-radius: 2px;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
